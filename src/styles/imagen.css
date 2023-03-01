@@ -1,0 +1,32 @@
+.imagenListado{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+.imagenContainer{
+    background-color: rgb(17, 17, 17);
+}
+@media (max-width: 768px){
+    .imagenContainer{
+        background-color: rgb(17, 17, 17);
+        margin-bottom: 2rem;
+    }
+}
+.imagen{
+    width: 100%;
+    height: 80%;
+}
+.descripcion{
+    padding: .5rem;
+}
+.paginacion{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.paginado{
+    cursor: pointer;
+}

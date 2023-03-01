@@ -1,0 +1,107 @@
+.portada{
+  background-image: url("../img/MarsPortada.jpeg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.logo{
+    width: 7%;
+}
+@media (max-width: 768px) {
+  .logo{
+    width: 20%;
+  }
+}
+.boton-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+.boton{
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(255, 123, 0);
+    background-color: #00000067;
+    cursor: pointer;
+}
+.titulo{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(255, 189, 138);
+  font-size: 500%;
+}
+@media (min-width: 768px) {
+  .titulo{
+    font-size: 600%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+  }
+}
+.botonera{
+    font-size: 100%;
+    height: 10vh;
+    color: #ffffff21;
+    display: block;
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .botonera{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+  }
+
+  .hvr-horizon {
+  }
+
+@media (min-width: 768px) {
+    /* Shutter Out Horizontal */
+    .hvr-horizon {
+      text-align: center;
+      padding: 1.5rem 1.5rem;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      cursor: cell;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+      background: #e1e1e100;
+    }
+    .hvr-horizon:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #ff9640bd;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 50%;
+      transform-origin: 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .hvr-horizon:hover, .hvr-horizon:focus, .hvr-horizon:active {
+      color: white;
+    }
+    .hvr-horizon:hover:before, .hvr-horizon:focus:before, .hvr-horizon:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+}
