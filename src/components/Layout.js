@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "./node_modules/react";
+
 import HeaderPortada from './HeaderPortada';
 import Footer from './Footer';
 export default function Layout({

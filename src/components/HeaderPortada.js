@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "./node_modules/react";
+
 export default function HeaderPortada() {
   function handleScroll() {
     const altoPantalla = window.screen.height - 130;
