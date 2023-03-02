@@ -8,11 +8,11 @@
 .logo{
     width: 7%;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .logo{
     width: 20%;
   }
-} */
+}
 .boton-container{
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
   color: rgb(255, 189, 138);
   font-size: 500%;
 }
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .titulo{
     font-size: 600%;
     display: flex;
@@ -39,7 +39,7 @@
     justify-content: center;
     height: 60%;
   }
-} */
+}
 .botonera{
     font-size: 100%;
     height: 10vh;
@@ -48,18 +48,18 @@
     margin-bottom: 10rem;
     text-align: center;
   }
-  /* @media (min-width: 768px) {
+  @media (min-width: 768px) {
     .botonera{
       display: flex;
       justify-content: space-between;
       margin-bottom: 0;
     }
-  } */
+  }
 
   .hvr-horizon {
   }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     /* Shutter Out Horizontal */
     .hvr-horizon {
       text-align: center;
@@ -104,3 +104,4 @@
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
     }
+}
